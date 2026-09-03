@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  font-family: Inter, sans-serif;
+  color: white;
+  background: #0F0F13;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  background: #0F0F13;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(130, 87, 229, 0.08),
+      transparent 25%
+    ),
+    #0F0F13;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
